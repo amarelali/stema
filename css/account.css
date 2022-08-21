@@ -1,0 +1,31 @@
+body{
+    font-size:18px;
+}
+.signUp {
+    background-image: linear-gradient(to right,green,yellow,red);
+    max-width: 349px !important;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 1px 11px 0px #3A3A3A;
+    margin: auto;
+    margin-top: 7%;
+}
+
+input[type=submit] {
+  background-color: #72b900;
+  margin-top: 10px;
+}
+input[type=text],input[type=password],input[type=email]{
+    width: 96%;
+    height: 4%;
+}
+input{
+    border-radius:6px;
+    height: 21px;
+}
+div form{
+display:block;
+    }
+input:focus, select:focus{
+    outline: none;
+}
